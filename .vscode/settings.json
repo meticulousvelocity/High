@@ -1,0 +1,35 @@
+{
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "isort.args": ["--profile", "black"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "rewrap.autoWrap.enabled": true
+  },
+  "rewrap.autoWrap.enabled": false,
+  "rewrap.wrappingColumn": 72,
+  "editor.rulers": [88],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "prettier.printWidth": 88,
+  "editor.maxTokenizationLineLength": 64000,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.rmd": "markdown",
+    "*.tcc": "cpp"
+  }
+}
