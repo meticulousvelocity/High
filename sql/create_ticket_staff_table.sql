@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS ticket_staff (
+    id INTEGER PRIMARY KEY,
+    count INTEGER NOT NULL DEFAULT 0
+);
